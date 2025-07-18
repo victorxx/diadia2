@@ -181,21 +181,121 @@
     <script>
         // Array de notícias
         const newsArray = [
-            {
-                title: "Novo Consórcio com Taxa Reduzida!",
-                description: "Agora você pode adquirir seu consórcio com uma taxa ainda mais baixa! Aproveite essa oportunidade única.",
-                link: "https://geocredibnkvitoria.com/consorcio"
-            },
-            {
-                title: "Seguro Residencial Completo",
-                description: "Proteja sua casa com nosso seguro residencial. Planos acessíveis para todas as necessidades.",
-                link: "https://geocredibnkvitoria.com/seguro-residencial"
-            },
-            {
-                title: "Crédito Pessoal Rápido e Fácil",
-                description: "Empréstimos pessoais com aprovação rápida e sem burocracia. Confira as condições especiais!",
-                link: "https://victorxx.github.io/redionador1git/"
-            }
+                                    {
+                                        title: "Novo Consórcio com Taxa Reduzida!",
+                                        description: "Agora você pode adquirir seu consórcio com uma taxa ainda mais baixa! Aproveite essa oportunidade única.",
+                                        link: "https://geocredibnkvitoria.com/consorcio"
+                                    },
+                                    {
+                                        title: "Seguro Residencial Completo",
+                                        description: "Proteja sua casa com nosso seguro residencial. Planos acessíveis para todas as necessidades.",
+                                        link: "https://geocredibnkvitoria.com/seguro-residencial"
+                                    },
+                                    {
+                                        title: "Crédito Pessoal Rápido e Fácil",
+                                        description: "Empréstimos pessoais com aprovação rápida e sem burocracia. Confira as condições especiais!",
+                                        link: "https://victorxx.github.io/redionador1git/"
+                                    },
+                                    {
+                                title: "Novo Consórcio com Taxa Reduzida!",
+                                description: "Agora você pode adquirir seu consórcio com uma taxa ainda mais baixa! Aproveite essa oportunidade única.",
+                                link: "https://geocredibnkvitoria.com/consorcio"
+                            },
+                            {
+                                title: "INSS Libera Novo Calendário de Pagamentos",
+                                description: "Aposentados e pensionistas já podem conferir as datas atualizadas para recebimento dos benefícios.",
+                                link: "https://inss.gov.br/pagamentos2025"
+                            },
+                            {
+                                title: "Enem 2025: Edital Já Está Disponível",
+                                description: "Confira as principais mudanças no Exame Nacional do Ensino Médio e prepare-se com antecedência.",
+                                link: "https://enem.inep.gov.br/edital2025"
+                            },
+                            {
+                                title: "Petrobras Anuncia Queda no Preço da Gasolina",
+                                description: "Novo reajuste começa a valer a partir desta semana e promete aliviar o bolso do consumidor.",
+                                link: "https://petrobras.com.br/noticias/preco-gasolina"
+                            },
+                            {
+                                title: "Mega-Sena Acumula e Prêmio Vai a R$ 95 Milhões",
+                                description: "Ninguém acertou as seis dezenas no último concurso. Veja como apostar para o próximo sorteio.",
+                                link: "https://loterias.caixa.gov.br/megasena"
+                            },
+                            {
+                                title: "Brasil Estreia com Vitória na Copa América",
+                                description: "Seleção vence por 3x1 e anima torcida rumo ao título continental.",
+                                link: "https://copaamerica.com.br/jogos/brasil-estreia"
+                            },
+                            {
+                                title: "Governo Lança Programa de Incentivo ao Primeiro Emprego",
+                                description: "Iniciativa prevê apoio financeiro e capacitação para jovens em busca do primeiro trabalho.",
+                                link: "https://gov.br/primeiroemprego"
+                            },
+                            {
+                                title: "Novo iPhone Chega ao Brasil com Preço Recorde",
+                                description: "O modelo mais recente da Apple desembarca com novas funcionalidades e valores a partir de R$ 8.999.",
+                                link: "https://apple.com/br/iphone15"
+                            },
+                            {
+                                title: "Netflix Anuncia Série Baseada em Clássico Brasileiro",
+                                description: "Produção terá elenco nacional e estreia está prevista para o segundo semestre.",
+                                link: "https://netflix.com/br/novidades"
+                            },
+                            {
+                                title: "Vacinação Contra a Gripe é Ampliada para Toda População",
+                                description: "Campanha é prorrogada e agora atende todas as faixas etárias. Veja onde se vacinar.",
+                                link: "https://saude.gov.br/vacinacao2025"
+                            },
+                            {
+                                title: "Amazon Inaugura Novo Centro de Distribuição no Nordeste",
+                                description: "Investimento promete gerar mais de 2 mil empregos diretos na região.",
+                                link: "https://amazon.com.br/novocentro"
+                            },
+                            {
+                                title: "Gastos com Cartão de Crédito Batem Recorde em 2025",
+                                description: "Famílias brasileiras aumentam o uso do crédito; especialistas alertam sobre endividamento.",
+                                link: "https://bcb.gov.br/cartao2025"
+                            },
+                            {
+                                title: "Reforma Tributária Avança no Congresso",
+                                description: "Proposta unifica impostos e promete simplificar a vida do contribuinte.",
+                                link: "https://camara.leg.br/reformatributaria"
+                            },
+                            {
+                                title: "Chuvas Fortes Causam Alagamentos em SP",
+                                description: "Defesa Civil emite alerta e recomenda cuidados com deslocamentos.",
+                                link: "https://defesacivil.sp.gov.br/alerta-chuvas"
+                            },
+                            {
+                                title: "Turismo no Nordeste Bate Recorde de Visitantes",
+                                description: "Destinos como Salvador e Fortaleza registraram aumento histórico de turistas no primeiro semestre.",
+                                link: "https://turismo.gov.br/nordeste2025"
+                            },
+                            {
+                                title: "Feirão de Imóveis Oferece Condições Especiais em Julho",
+                                description: "Evento online reúne mais de 3 mil ofertas com entrada facilitada e financiamento em até 30 anos.",
+                                link: "https://feiraodeimoveis.com.br/julho2025"
+                            },
+                            {
+                                title: "Educação Financeira Será Disciplina Obrigatória nas Escolas",
+                                description: "Nova grade curricular inclui aulas práticas sobre finanças pessoais a partir de 2026.",
+                                link: "https://mec.gov.br/educacaofinanceira"
+                            },
+                            {
+                                title: "BNDES Abre Linha de Crédito para Pequenas Empresas",
+                                description: "Empreendedores terão acesso a juros reduzidos e prazo estendido para pagamento.",
+                                link: "https://bndes.gov.br/credito-pequenas"
+                            },
+                            {
+                                title: "Rodovias Federais Terão Monitoramento por Câmeras em Tempo Real",
+                                description: "Nova tecnologia visa reduzir acidentes e facilitar o tráfego em horários de pico.",
+                                link: "https://dnit.gov.br/monitoramento"
+                            },
+                            {
+                                title: "Feira Internacional de Tecnologia Começa em São Paulo",
+                                description: "Evento traz inovações em inteligência artificial, robótica e energia limpa.",
+                                link: "https://techfairsp.com.br/2025"
+                            }
         ];
 
         // Função para exibir as notícias
